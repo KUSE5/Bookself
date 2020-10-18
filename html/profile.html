@@ -9,17 +9,181 @@
     <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/profile.css">
     <script src="js/main.js"></script>
     <script src="js/profile.js"></script>
 </head>
 
 <body>
     <!-- Coding Here -->
+    <div class='wrap'>
+        <!-- 상단 내용 -->
+        <div id="logo">
+            <a href="home.html"><img src="img/bookself.png" height="90" width="500" /></a>
+        </div>
+        <div class="container-fluid" id="root">
+            <div class="row p-2">
+                <div class="col-md-4 justify-content-center bg-white border-right border-light p-4">
 
+                    <div class="row justify-content-center">
+                        <img src="img/profile-img.PNG" height="148" width="123" />
+                        <div id="a">
+                            <div class="row justify-content-center">
+                                <h3 class="tex-center text-dark"><b>제이지</b></h3>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="text-center text-muted">컴퓨터공학 대학생</div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <ul class="list-unstyled contact-links text-center text-dark">
+                                    <li><i class="fa fa-md fa-location-arrow"></i> 서울시, 성북구, 안암동</li>
+                                    <li><i class="fa fa-md fa-phone"></i> 010-1234-5678</li>
+                                    <li><i class="fa fa-md fa-at"></i>
+                                        yiioverflow@gmail.com
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- All buttons -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+            1:1 대화
+        </button>
+        &nbsp&nbsp&nbsp&nbsp
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            자기소개
+        </button>
+        &nbsp&nbsp&nbsp&nbsp
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+            취향
+        </button>
+        &nbsp&nbsp&nbsp&nbsp
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+            중고책
+        </button>
+        &nbsp&nbsp&nbsp&nbsp
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+            감상문
+        </button>
+
+
+        <!-- 1:1대화 -->
+        <div>
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title" id="exampleModalLabel3">1:1대화</div>
+
+                        </div>
+                        <div class="modal-body">
+                            대화 상대를 불러오고 있습니다. 잠시만 기다려주세요.
+                            <div class="spinner-border" role="status">
+                                <span class="sr-only">Loading...</span>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 자기소개 -->
+        <div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title" id="exampleModalLabel">자기소개</div>
+
+                        </div>
+                        <div class="modal-body">
+                            컴퓨터 공학을 공부하고 있지만, 컴퓨터를 그다지 좋아하지 않습니다. 저는 독서를 좋아합니다.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 취향 -->
+        <div>
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title" id="staticBackdropLabel">취향</div>
+
+                        </div>
+                        <div class="modal-body">
+                            제이지님의 선호 취향입니다. <br>
+                            로맨스, 추리소설, 스포츠잡지
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 중고책 -->
+        <div>
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title" id="exampleModalLabel1">중고책</div>
+
+                        </div>
+                        <div class="modal-body">
+
+                            <img src="img/중고책.PNG" height="217" width="423" />
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 감상문 -->
+        <div>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title" id="exampleModalLabel2">감상문</div>
+
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/감상글.PNG" height="224" width="386" /></div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
 
 
     <!-- Coding Here -->
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -30,5 +194,6 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
+
 
 </html>

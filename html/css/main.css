@@ -1,8 +1,24 @@
 @font-face {
     font-family: 'nanumsquare';
-    src: url('../font/NanumFontSetup_TTF_SQUARE/NanumSquareR.ttf') format('truetype')； /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('../font/NanumFontSetup_TTF_SQUARE/NanumSquareR.ttf') format('truetype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-* {
+.navbar {
+    margin: 25px 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, .p, .button, .textarea, .a {
     font-family: 'nanumsquare';
+}
+
+h1, h2, h3, h4, h5, h6, p, button, textarea, a {
+    font-family: 'nanumsquare';
+}
+
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+    font-weight: bold;
+}
+
+.navbar, .navbar-brand, form input {
+    font-family: "nanumsquare";
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
     <script src="js/main.js"></script>
     <script src="js/home.js"></script>
 </head>
@@ -16,6 +17,152 @@
 <body>
     <!-- Coding Here -->
 
+    <div class="container">
+        <div class="bs-component">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">Bookself</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+                    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">XXX</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">XXX</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">XXX</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">XXX</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+        <div class="bs-docs-section">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-3">
+                    <img src="img/icon.png">
+                </div>
+                <div class="col-lg-6">
+                    <div class="container">
+                        <h1 class="display-4"><a href="profile.html">OHB</a> 님의</h1>
+                        <h1 class="display-3">Bookself</h1>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+
+        <div class="shelf-bar">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                        <button type="button" class="btn btn-secondary">필터</button>
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" href="#">작가순</a>
+                                <a class="dropdown-item" href="#">제목순</a>
+                                <a class="dropdown-item" href="#">미읽음</a>
+                                <a class="dropdown-item" href="#">읽음</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="setting-btn" src="img/setting.png">
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-1">
+                    <ul class="pagination pagination-sm">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">
+                                &lt;
+                            </a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                &gt;
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="shelf-back">
+                <div class="shelf">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="books/CSCover_EN-GB_2014Children.jpg">
+                            </td>
+                            <td>
+                                <img src="books/DHCover_EN-GB_2014Children.jpg">
+                            </td>
+                            <td>
+                                <img src="books/GFCover_EN-GB_2014Children.jpg">
+                            </td>
+                            <td>
+                                <img src="books/HBPCover_EN-GB_2014Children.jpg">
+                            </td>
+                            <td>
+                                <img src="books/OPCover_EN-GB_2014Children.jpg">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="books/PACover_EN-GB_2014Children.jpg">
+                            </td>
+                            <td>
+                                <img src="books/PSCover_EN-GB_2014Children.jpg">
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Coding Here -->

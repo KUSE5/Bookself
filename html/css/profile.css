@@ -1,8 +1,43 @@
 @font-face {
     font-family: 'nanumsquare';
-    src: url('../font/NanumFontSetup_TTF_SQUARE/NanumSquareR.ttf') format('truetype')； /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('../font/NanumFontSetup_TTF_SQUARE/NanumSquareR.ttf') format('truetype')  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 * {
     font-family: 'nanumsquare';
+
 }
+
+#icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.wrap {
+    width: 600px;
+    margin: auto;
+    padding-left: 50px;
+
+}
+
+
+.container-fluid { padding-left: 110px; }
+
+
+
+
+
+

@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'nanumsquare';
-    src: url('../font/NanumFontSetup_TTF_SQUARE/NanumSquareR.ttf') format('truetype')； /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-* {
-    font-family: 'nanumsquare';
-}
